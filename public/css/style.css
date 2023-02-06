@@ -1,0 +1,595 @@
+:root{
+    /* --mauhover: #f48341; */
+  }
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding-inline-start: inherit;
+    font-family: Roboto;
+  
+}
+
+a{
+    color: black;
+}
+.navtop a{
+    color: rgb(252, 252, 252);
+    font-size: 14px;
+}
+.navtop a:hover{
+    text-decoration: underline;
+}
+
+.mrl15{
+    margin-left: 15px;
+}
+
+.row20{
+    width: 19%;
+    min-height: 350px;
+    /* background-color: beige; */
+}
+.buocdem{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buocdem_xl{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* section 1 */
+.section1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.section1 .fa{
+    background-color: rgb(225, 225, 225);
+    padding: 4px 0;
+}
+.section1 .fa-chevron-left{
+    position: absolute;
+    top: 120px;
+    font-size: 30px;
+
+}
+.section1 .fa-chevron-right{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    font-size: 30px;
+}
+.box_item img{
+    width: 100%;
+    height: 75%;
+}
+.text-ss1{
+    color: rgb(185, 65, 65);
+    font-weight: 400;
+    font-size: 22px;
+  
+}
+.product_all{
+    color: rgb(185, 65, 65);
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid rgb(185, 65, 65);
+    padding: 5px 0;
+    border-radius: 2px;
+    min-width: 220px;
+    text-align: center;
+}
+.mota{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.giasell{
+    float: left;
+    margin-right: 20px;
+    color: brown;
+    font-size: 16px;
+    font-weight: 700;
+}
+.gia{
+    font-size: 16px;
+    text-decoration: line-through;
+    color: gray;
+
+}
+
+.navtop{
+    width: 100%;
+    height: 38px;
+    background-color: black;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.left_nav a{
+color: aliceblue; 
+font-size: 15px;   
+}
+
+.left_nav a:hover{
+    text-decoration: underline;
+    color: var(--mauhover);
+}
+
+.navtop_content{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+   
+}
+.left{
+    line-height: 38px;
+    display: flex;
+   
+}
+.left>li{
+    margin-right: 15px;
+}
+.left>li:last-child{
+    margin:0;
+}
+
+.right{
+    line-height: 38px;
+    display: flex; 
+}
+
+.right>li:last-child{
+    margin-right: 15px;
+}
+/*main_menu */
+.main_menu{
+    height: 80px;
+    display: flex;
+    justify-content:space-between;
+    /* background-color: aqua; */
+    align-items: center;
+    
+
+}
+.hotline{
+    display:flex;
+
+    
+    }
+.logo{
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+.mr15{
+    margin-right: 15px;
+   
+}
+
+.logo>img{
+    width: 145px;
+    height: 80px;
+}
+.timkiem{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.timkiem>input{
+    width: 280px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.timkiem>img{
+    width: 25px;
+    height: 25px;
+}
+.menu_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.menu_1>li{
+    padding-inline-start: 0;
+}
+.menu_1>li>a{
+    font-weight: bold;
+    color: black;
+}
+ul.main_menu>li{
+    padding-inline-start: 0;
+}
+
+.main_menu{
+    /* background-color: aqua; */
+    height: 80px;
+
+
+}
+
+/* menu con */
+.main_menu  .fa{
+    color: gray;
+    font-size: 20px;
+    margin-left:5px;
+    
+}
+.fa-align-justify{
+   margin-top: 25px;
+}
+
+.menu_left{
+    display: flex;
+    justify-content: space-between;
+    /* line-height: 80px; */
+}
+
+.menu_left .logo_con img{
+    width: 230px;
+    height: 70px;
+    
+}
+.banner{
+    height: 300px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 150px 150px;
+    grid-gap: 10px 5px;
+    margin-bottom: 40px;
+}
+.banner1{
+   background-color: aqua;
+   grid-column: 1/3;
+   grid-row: 1/3;
+   /* background-image: url(/public/img/Rectangle\ 1.png);
+   background-repeat: no-repeat;
+   background-size: cover; */
+}
+
+
+.banner2{
+    background-color: rgb(134, 95, 95);
+    grid-column: 3/4;
+   grid-row: 1/2;
+ }
+
+ .banner3{
+    /* background-color: blue; */
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.khuyenmai img{
+    width: 100%;
+}
+.banner_main{
+    height: 300px;
+    /* background-color:blueviolet; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.row48{
+    width: 49.5%;
+}
+.banner_main_1{
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.banner_main_2{
+    background-color: aquamarine;
+    height: 100%;
+}
+.banner_main_1 img{
+    width: 100%;
+    height: 100%;
+}
+.banner_main_2 img{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.mrb{
+    margin-top: 20px;
+}
+.mrt30{
+    margin-top: 30px;
+}
+.text_dangky{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.end{
+    text-align: end ;
+}
+.doitac{
+    height: 110px;
+    /* background-color: beige; */
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+}
+.gach{
+    border-bottom: 2px solid gray;
+    margin-top: 40px;
+}
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    margin-top: 25px;
+}
+footer a{
+    color: black;
+    font-size: 16px;
+}
+
+
+.ss1{
+    font-size: 18px;
+    margin: 20px 0;
+   
+}
+
+.ss1 li{
+    margin-top: 12px;
+   
+}
+
+.bold{
+    font-weight: bold;
+}
+/* xu huong */
+.search_head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 0;
+}
+.text_search_head{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(77, 72, 72);
+   
+    /* border-bottom: 1px solid black; */
+}
+.all{
+    font-size: 18px;
+}
+.row5{
+    width: 25%;
+    height: 100px;
+}
+.search_main{
+    display: flex;
+    justify-content: space-between;
+}
+.item_search{
+ border-right: 1px solid gray;
+ border-top: 1px solid gray;
+ background-color: rgb(230, 230, 230);
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+.img_item_search{
+    background-color: aquamarine;
+    width: 30%;
+    height: 85px;
+    border-radius: 2px;
+}
+.img_item_search img{
+    width: 100%;
+    height: 100%;
+}
+.text_item_search a{
+    font-size: 18px;
+}
+
+.text_item_search span{
+    font-size: 10px;
+}
+
+/* thuong hieu */
+.thuonghieu{
+    color: black;
+    text-align: center;
+    border:none;
+    font-size: 22px;
+    outline: none;
+}
+
+.show_danhmuc{
+    display: grid;
+    min-height: 500px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+        grid-template-rows: 250px 250px;     
+        grid-gap: 15px 5px;  
+        padding-top: 5px;
+        position: relative;
+}
+.show_danhmuc .fa-chevron-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 18px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 50%;
+    padding: 8px 10px;
+    transition: transform .2s;
+
+}
+.show_danhmuc .fa-chevron-right:hover{
+    
+    transform: scale(1.5);
+}
+
+.item_danhmuc{
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+   
+}
+.item_danhmuc a{
+    color: brown;
+    font-size: 18px;
+    font-weight: 500;
+}
+.banner_danhmuc{
+    grid-column: 1/3;
+    grid-row: 1/3;  
+
+}
+.banner_danhmuc img{
+    width: 100%;
+    height: 100%;
+    
+}
+.show_danhmuc_header{
+    box-sizing: border-box;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(126, 126, 126);
+    margin-top: 30px
+}
+.text_show_danhmuc span{
+    margin-left: 15px;
+}
+.text_show_danhmuc strong{
+    font-size: 20px;
+}
+.show_danhmuc_header>a{
+    text-align: start;
+    font-size: 16px;
+    color: brown;
+}
+.anh_danhmuc{
+    width: 90%;
+    margin: 0 auto;
+    height: 50%;
+    display: flex;
+    align-items: center;
+   
+}
+.anh_danhmuc img{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+.logo_danhmuc{
+    width: 80%;
+    height: 60px;
+    /* border: 1px solid rgb(130, 129, 129); */
+    margin: 0 auto;
+    border-radius: 25px;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.logo_danhmuc img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+ 
+}
+/* maincontainer */
+.container_shop{
+    min-width: 500px;
+    /* background-color: rgb(215, 222, 222); */
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr ;
+}
+.box_danhmuc_left{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* background-color: rgb(195, 83, 83); */
+    border: 1px saddlebrown solid;
+}
+
+.box_sanpham_left{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(0, 0, 0);
+    border: 1px saddlebrown solid;
+}
+.box_sanpham_right_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box_sanpham_right_header h4{
+   font-weight:400 ;
+   font-size: 20px;
+}
+b{
+    font-weight: 500;
+}
+.box_sanpham_right .box_sanpham{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px 300px;
+        grid-gap: 15px 10px;
+}
+.item_sanpham_danhmuc{
+    
+    min-height: 340px;
+
+}
+.item_sanpham_danhmuc_img img{
+    width: 100%;
+    height: 228.5px;
+   
+    margin-bottom: 5px;
+}
+.name_sanpham a{
+   font-size: 16px; 
+}
+.price_sell{
+    margin-right: 10px;
+    color: #d80d0d;
+    font-style: oblique;
+    font-family: Georgia,serif;
+    margin-top: 5px;
+}
+.price_old{
+    text-decoration: line-through;
+    color: #989696;
+    font-weight: 400;
+    font-size: 90%;
+    font-style: oblique;
+    font-family: Georgia,serif;
+    white-space: nowrap;
+}
+.box_danhmuc_left_thuonghieu{
+    height:500px;
+    width: 100%;
+    background-color: #d5c5c5;
+}
+.box_danhmuc_left h4{
+    font-size: 18px;
+    font-weight: 500;
+}
