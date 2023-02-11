@@ -1416,7 +1416,7 @@ cursor: pointer;
 }
 
 .bnt_capnhat{
-    width: 25%;
+    min-width: 30%;
     height: 50px;
     padding: 12px 6px;
     font-weight: 600;
