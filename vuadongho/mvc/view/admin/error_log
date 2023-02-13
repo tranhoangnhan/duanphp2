@@ -1,0 +1,2 @@
+[15-Dec-2022 11:41:13 UTC] PHP Notice:  Undefined variable: data in /home/hoangnha/public_html/mvcda1/mvc/view/admin/login.php on line 71
+[15-Dec-2022 11:41:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/hoangnha/public_html/mvcda1/mvc/view/admin/login.php on line 71
